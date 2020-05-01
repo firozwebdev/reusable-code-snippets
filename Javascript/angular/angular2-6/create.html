@@ -1,0 +1,59 @@
+<!-- 
+    Create form should be placed inside component.html file
+ -->
+
+
+    <form class="form"  #createForm=ngForm (ngSubmit)="onSubmit(createForm)">
+
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" name="name" class="form-control" id="name"  placeholder="Name"  [(ngModel)]="form.name" required>
+        </div>
+        <div class="form-group">
+            <label for="description">Description</label>
+            <textarea class="form-control" name="description" id="description" cols="30" rows="10"  [(ngModel)]="form.description" required></textarea>
+        </div>
+    
+        <div class="form-group">
+          <div class="input-group">
+            <input class="form-control" placeholder="yyyy-mm-dd"
+                  name="releaseDate" [(ngModel)]="model" ngbDatepicker #d="ngbDatepicker"  [(ngModel)]="form.releaseDate" required>
+            <div class="input-group-append">
+              <button class="btn btn-outline-secondary" (click)="d.toggle()" type="button">
+                <img src="./assets/img/calendar-icon.svg" style="width: 1.2rem; height: 1rem; cursor: pointer;"/>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+            <label for="photo">Photo</label>
+            <input type="file" (change) = "onFileSelected($event)" name="photo" id="photo"   [(ngModel)]="form.photo" required>
+        </div>
+        <div class="form-group">
+            <button type="submit">Submit</button>
+        </div>
+
+    </form>
+      
+
+<!--
+    below code should be placed inside component.ts file
+-->
+onFileSelected(event){
+    this.selectedFile = <File> event.target.files[0];
+    
+}
+
+onSubmit(createForm){
+    
+    const fd = new FormData(); <!-- Javascript built in method to take form input-->
+    fd.append('name', createForm.value.name);
+    fd.append('description', createForm.value.description);
+    
+    fd.append('photo', this.selectedFile, this.selectedFile.name);
+   
+    return this.http.post('http://localhost:8000/api/film', fd).subscribe(
+      data => console.log(data),
+      error => console.log(error),
+    );
+  }
