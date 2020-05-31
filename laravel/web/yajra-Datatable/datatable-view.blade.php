@@ -53,7 +53,7 @@
                $('#loadData').DataTable({
                processing: true,
                serverSide: true,
-               ajax: '{{ route('getAllContactData') }}',
+               ajax: '{{ route('getAllContactData') }}',  // this route name in web.php through which method will be triggered
                columns: [
                     { data: 'name', name: 'name' },
                     { data: 'email', name: 'email' },
