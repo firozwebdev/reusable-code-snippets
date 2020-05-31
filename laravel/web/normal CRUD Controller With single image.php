@@ -109,27 +109,14 @@ class PostController extends Controller
     public function update(Request $request, Post $post)
     {
         try{
-            $message = [
-                'title.required' => 'Post title  is required',
-                
-                'description.required' => 'Post Description  is required',
-                'photo.required' => 'Please put an image',
-                'photo.mimes' => 'This is not an image',
-                
-                
-                
-            ];
-            $rules = [
-                'title' => 'required',
-                'description' => 'required',
-                'photo' => 'required|image|mimes:jpeg,png,jpg,gif,svg',
-                
-               
-            ];
+            $message = [];
+            $rules = [];
+
             $validator = Validator::make($request->all(), $rules, $message);
             if ($validator->fails()) {
                 return redirect()->back()->withInput()->withErrors($validator);
             }
+            
 
             if ($request->has('photo')) {
                 $imageName = time().'.'.$request->photo->extension();  
