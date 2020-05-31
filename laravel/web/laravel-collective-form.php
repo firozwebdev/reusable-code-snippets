@@ -19,7 +19,7 @@
 Not: When collective form is used , no need to place {{ csrf_field() }} inside the form because it is automatically included.
 -->
 
-
+<?php
 
 {!!Form::open( array('route' =>['save.category',['parameter' => 'value']],'method'=>'post','class'=>'form-horizontal contact_form'))!!}
 
@@ -60,13 +60,4 @@ Not: When collective form is used , no need to place {{ csrf_field() }} inside t
  {!! Form::close() !!}
 
  // Controller code will be ....
-<?php 
-
- public function destroy($id)
-    {
-        $post = Post::findOrFail($id);
-        $post->delete();
-        Session::put('message', 'Delete !');
-        return redirect()->route('posts.index');
-}
 
