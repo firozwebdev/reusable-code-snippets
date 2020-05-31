@@ -133,9 +133,11 @@ class PostController extends Controller
             $post->description = $request->description;
             $post->photo = $imageName;
             $post->save();
-            alert()->success('Post updated');
+            alert()->success('Post updated'); //sweet alert message
 
             return redirect()->route('posts.index');
+             //return redirect()->route('categories.index')->with('message',"Post Created"); // this line will work for normal session message
+
 
         }catch(\Exception $e){
             return $e->getMessage();
@@ -155,5 +157,6 @@ class PostController extends Controller
         alert()->success('Post Deleted');
 
         return redirect()->route('posts.index');
+          //return redirect()->route('categories.index')->with('message',"Post Deleted"); // this line will work for normal session message
     }
 }

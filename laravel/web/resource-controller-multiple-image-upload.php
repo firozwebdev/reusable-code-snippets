@@ -47,10 +47,10 @@ class UserController extends Controller
             $post->description = $request->description;
             $product->multiple = json_encode($data);
             $post->save();
-            alert()->success('Post created'); // sweet alert externel package
+            alert()->success('Post created'); // sweet alert message externel package
 
             return redirect()->route('posts.index');
-            //return redirect()->route('categories.index')->with('message',"Post Created"); // this line will work for normal session
+             //return redirect()->route('categories.index')->with('message',"Post Created"); // this line will work for normal session message
 
 
         }catch(\Exception $e){
@@ -75,6 +75,7 @@ class UserController extends Controller
         alert()->success('Post Deleted');
 
         return redirect()->route('posts.index');
+          //return redirect()->route('categories.index')->with('message',"Post Deleted"); // this line will work for normal session message
 
     }
 }
