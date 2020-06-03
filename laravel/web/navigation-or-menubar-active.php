@@ -25,3 +25,18 @@ $route = Route::current()->getName();
         <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
     </li>
 @endif
+
+
+
+/*
+    checking link in view page for different role with guard name
+
+*/
+
+if (Auth::guard('admin')->check()) {
+    return redirect(RouteServiceProvider::ADMIN_HOME);
+}
+
+if (Auth::guard('manager')->check()) {
+    return redirect(RouteServiceProvider::MANAGER_HOME);
+}
