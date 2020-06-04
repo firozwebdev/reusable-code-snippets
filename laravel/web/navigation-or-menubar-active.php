@@ -45,3 +45,7 @@ if(Auth::guard('web')->check()) {
     return redirect(RouteServiceProvider::HOME); // for Admin user page
 }
 
+Auth::user(); //it will provide an object of  User (who is logged in)
+Auth::user()->id;
+Auth::user()->email;
+

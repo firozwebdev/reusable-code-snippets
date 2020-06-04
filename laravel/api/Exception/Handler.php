@@ -1,7 +1,7 @@
 <?php
 
 /*
-    If we want to handle exception, then we  have to write code inside  render method just like below
+    If we want to handle exception or error, then we  have to write code inside  render method just like below
 
 */
 
