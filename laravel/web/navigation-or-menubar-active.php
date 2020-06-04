@@ -34,9 +34,14 @@ $route = Route::current()->getName();
 */
 
 if (Auth::guard('admin')->check()) {
-    return redirect(RouteServiceProvider::ADMIN_HOME);
+    return redirect(RouteServiceProvider::ADMIN_HOME); // for Admin home page
 }
 
 if (Auth::guard('manager')->check()) {
-    return redirect(RouteServiceProvider::MANAGER_HOME);
+    return redirect(RouteServiceProvider::MANAGER_HOME); // for manager home page
 }
+
+if(Auth::guard('web')->check()) {
+    return redirect(RouteServiceProvider::HOME); // for Admin user page
+}
+
