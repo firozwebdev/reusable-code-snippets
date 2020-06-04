@@ -17,7 +17,8 @@ class CreateUsersTable extends Migration
     public function up()
     {
         Schema::create('users', function (Blueprint $table) {
-            $table->id();
+            $table->id(); // primary key
+            $table->foreignId('category_id'); // foreign key
             $table->string('name',100);
             $table->string('email',100)->unique();
             $table->integer('category_id');
@@ -25,9 +26,10 @@ class CreateUsersTable extends Migration
             $table->double('quantity')->default(0);
             $table->boolean('userStatus')->default(0);
             $table->timestamp('email_verified_at')->nullable();
-            $table->string('password');
             $table->rememberToken();
             $table->timestamps();
+
+            $table->foreign('category_id')->references('id')->on('categories')->onDelete('cascade');
            
         });
     }
