@@ -33,15 +33,18 @@ $route = Route::current()->getName();
 
 */
 
+//  চেক করা হচ্ছে ইউজার  আডমিন কিনা
 if (Auth::guard('admin')->check()) {
-    return redirect(RouteServiceProvider::ADMIN_HOME); // for Admin home page
+    return redirect(RouteServiceProvider::ADMIN_HOME); 
 }
 
+//  চেক করা হচ্ছে ইউজার  ম্যানেজার কিনা
 if (Auth::guard('manager')->check()) {
     return redirect(RouteServiceProvider::MANAGER_HOME); // for manager home page
 }
 
-if(Auth::guard('web')->check()) {
+//  চেক করা হচ্ছে ইউজার  লগিন করেছে কিনা
+if(Auth::check()) {
     return redirect(RouteServiceProvider::HOME); // for Admin user page
 }
 
