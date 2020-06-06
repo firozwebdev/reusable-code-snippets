@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5f9e537-2622-414b-bb81-3ebc7e51968e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/laravel/web/laravel-collective-form.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/web/laravel-collective-form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel/web/CRUD Controller With single image.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/web/CRUD Controller With single image.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,11 +31,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="laravel-collective-form.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="laravel-collective-form.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laravel/web/laravel-collective-form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
+            <state relative-caret-position="1038">
               <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CRUD Controller With single image.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/laravel/web/CRUD Controller With single image.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="347">
+              <caret line="133" column="41" lean-forward="true" selection-start-line="133" selection-start-column="41" selection-end-line="133" selection-end-column="41" />
+              <folding>
+                <element signature="e#40#53#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -59,6 +71,7 @@
       <list>
         <option value="$PROJECT_DIR$/laravel/web/laravel-mix.php" />
         <option value="$PROJECT_DIR$/laravel/web/laravel-collective-form.php" />
+        <option value="$PROJECT_DIR$/laravel/web/CRUD Controller With single image.php" />
       </list>
     </option>
   </component>
@@ -137,18 +150,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591441057947</updated>
-      <workItem from="1591441059383" duration="1272000" />
+      <workItem from="1591441059383" duration="2728000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1272000" />
+    <option name="totallyTimeSpent" value="2728000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18603411" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14818764" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
@@ -157,7 +170,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.24945533" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3017429" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -199,8 +212,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/web/laravel-collective-form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
+        <state relative-caret-position="1038">
           <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/web/CRUD Controller With single image.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="133" column="41" lean-forward="true" selection-start-line="133" selection-start-column="41" selection-end-line="133" selection-end-column="41" />
+          <folding>
+            <element signature="e#40#53#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

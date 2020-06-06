@@ -117,13 +117,26 @@ class PostController extends Controller
                 return redirect()->back()->withInput()->withErrors($validator);
             }
             
+            /*
+             * Laravel simple image file upload
+             */
 
             if ($request->has('photo')) {
                 $imageName = time().'.'.$request->photo->extension();  
-   
                 $request->photo->move(public_path('images'), $imageName);
-                // Set user profile image path in database to filePath
-                
+            }
+
+            /*
+             * Image upload with Image Intervention   package
+             * use Intervention\Image\Facades\Image;
+             */
+
+            if ($request->has('photo')) {
+
+                $img = Image::make($request->photo)->resize(700, 850);
+                $imageName = time().'.'.$request->photo->extension();
+                $img->save('images'.$imageName, 60);
+
             }
 
            
