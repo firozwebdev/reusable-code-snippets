@@ -51,7 +51,9 @@ Not: When collective form is used , no need to place {{ csrf_field() }} inside t
 
 
 
-<!-- This below form should be used for delete method with  laravel resource controller   -->
+/*
+ * This below form should be used for delete method with  laravel resource controller
+ */
 
 //Form
 
