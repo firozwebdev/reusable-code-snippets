@@ -18,6 +18,8 @@
     @endif
 @endforeach
 
+
+
 /*
     Difference between section and push
 
@@ -67,4 +69,11 @@ result:
 </body>
 
 comment:
-    Push is better than section for scripts
+    Push is better than section for scripts and styles
+
+
+<head>
+    <!-- push target to head -->
+    @stack('styles')
+    @stack('scripts')
+</head>
