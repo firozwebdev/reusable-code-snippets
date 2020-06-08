@@ -77,3 +77,10 @@ comment:
     @stack('styles')
     @stack('scripts')
 </head>
+
+/*
+    loop index or no. inside  foreach loop
+*/
+<td>{{ $loop->iteration }}</td> start from 1
+<td>{{ $loop->index }}</td> start from 0
+<td>{{ $loop->index + 1 }}</td> start from 1
