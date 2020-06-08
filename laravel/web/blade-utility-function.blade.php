@@ -18,3 +18,53 @@
     @endif
 @endforeach
 
+/*
+    Difference between section and push
+
+*/
+
+@extends('master')
+
+...
+
+@for ($i = 0; $i < 3; $i++)
+
+    @push('test-push')
+        <script type="text/javascript">
+            // Push {{ $i }}
+        </script>
+    @endpush
+
+@section('test-section')
+    <script type="text/javascript">
+        // Section {{ $i }}
+    </script>
+@endsection
+
+@endfor
+
+
+master.blade.php
+
+@stack('test-push')
+@yield('test-section')
+</body>
+
+result:
+
+<script type="text/javascript">
+    // Push 0
+</script>
+<script type="text/javascript">
+    // Push 1
+</script>
+<script type="text/javascript">
+    // Push 2
+</script>
+<script type="text/javascript">
+    // Section 0
+</script>
+</body>
+
+comment:
+    Push is better than section for scripts
