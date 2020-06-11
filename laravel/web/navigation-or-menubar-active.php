@@ -52,3 +52,12 @@ Auth::user(); //it will provide an object of  User (who is logged in)
 Auth::user()->id;
 Auth::user()->email;
 
+@if(Auth::guard('admin')->user()->hasRole(['admin']))
+    @include('admin.partials.admin-menu')
+@endif
+
+
+@if(Auth::guard('admin')->user()->hasRole(['seller']))
+    @include('admin.partials.seller-menu')
+@endif
+
