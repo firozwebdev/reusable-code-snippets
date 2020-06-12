@@ -11,8 +11,7 @@ $route = Route::current()->getName();
 
 {{ request()->is('/dashboard') ? ' active' : '' }} // checking by url
 
-@includeWhen(Auth::user(), 'nav.user')
-@includeWhen(request()->is('/'), 'partials.jumbotron')
+
 
 
 
