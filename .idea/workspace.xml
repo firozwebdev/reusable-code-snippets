@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5f9e537-2622-414b-bb81-3ebc7e51968e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/laravel/web/Relationship/many-to-many-attach-detach-sync.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d5f9e537-2622-414b-bb81-3ebc7e51968e" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +23,8 @@
       <file leaf-file-name="many-to-many-attach-detach-sync.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/laravel/web/Relationship/many-to-many-attach-detach-sync.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="122" column="30" lean-forward="true" selection-start-line="122" selection-start-column="30" selection-end-line="122" selection-end-column="30" />
+            <state relative-caret-position="369">
+              <caret line="124" column="39" lean-forward="true" selection-start-line="124" selection-start-column="39" selection-end-line="124" selection-end-column="39" />
               <folding>
                 <element signature="e#8#91#0#PHP" expanded="true" />
                 <element signature="e#303#1436#1#PHP" />
@@ -258,12 +255,12 @@
       <workItem from="1591943364085" duration="2666000" />
       <workItem from="1591958285409" duration="11000" />
       <workItem from="1591969183247" duration="2879000" />
-      <workItem from="1592030224531" duration="6094000" />
+      <workItem from="1592030224531" duration="6469000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27383000" />
+    <option name="totallyTimeSpent" value="27758000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -278,7 +275,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.23809524" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3089701" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -652,8 +649,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/web/Relationship/many-to-many-attach-detach-sync.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="122" column="30" lean-forward="true" selection-start-line="122" selection-start-column="30" selection-end-line="122" selection-end-column="30" />
+        <state relative-caret-position="369">
+          <caret line="124" column="39" lean-forward="true" selection-start-line="124" selection-start-column="39" selection-end-line="124" selection-end-column="39" />
           <folding>
             <element signature="e#8#91#0#PHP" expanded="true" />
             <element signature="e#303#1436#1#PHP" />
