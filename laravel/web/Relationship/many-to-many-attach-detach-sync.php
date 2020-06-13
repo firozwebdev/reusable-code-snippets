@@ -2,7 +2,7 @@
 
 
 /*
- *  attach, detach, sync, syncWithoutDetaching for many to many relationship
+ *  attach, detach, sync, syncWithoutDetaching for many to many relationship -- tested project name 'fw'
  */
 
 // pivot table named 'role_user'
