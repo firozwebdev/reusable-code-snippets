@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d5f9e537-2622-414b-bb81-3ebc7e51968e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel/web/CRUD Controller With single image.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/web/CRUD Controller With single image.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel/web/eloquent-query.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/web/eloquent-query.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,20 +50,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CRUD Controller With single image.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CRUD Controller With single image.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laravel/web/CRUD Controller With single image.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="200" lean-forward="true" selection-start-line="200" selection-end-line="200" />
+            <state relative-caret-position="416">
+              <caret line="199" column="1" lean-forward="true" selection-start-line="199" selection-start-column="1" selection-end-line="199" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="eloquent-query.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="eloquent-query.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/laravel/web/eloquent-query.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="500">
+              <caret line="306" lean-forward="true" selection-start-line="306" selection-end-line="306" />
             </state>
           </provider>
         </entry>
@@ -120,11 +120,11 @@
         <option value="$PROJECT_DIR$/android/custom-toast/MainActivity.java" />
         <option value="$PROJECT_DIR$/laravel/web/navigation-or-menubar-active.php" />
         <option value="$PROJECT_DIR$/laravel/web/blade-utility-function.blade.php" />
-        <option value="$PROJECT_DIR$/laravel/web/eloquent-query.php" />
         <option value="$PROJECT_DIR$/laravel/web/routes.php" />
         <option value="$PROJECT_DIR$/laravel/web/attach-detach-sync.php" />
         <option value="$PROJECT_DIR$/laravel/web/Relationship/many-to-many-attach-detach-sync.php" />
         <option value="$PROJECT_DIR$/laravel/web/CRUD Controller With single image.php" />
+        <option value="$PROJECT_DIR$/laravel/web/eloquent-query.php" />
       </list>
     </option>
   </component>
@@ -254,12 +254,12 @@
       <workItem from="1592030224531" duration="6940000" />
       <workItem from="1592048559965" duration="133000" />
       <workItem from="1592082562686" duration="36000" />
-      <workItem from="1592116045252" duration="1526000" />
+      <workItem from="1592116045252" duration="3543000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29924000" />
+    <option name="totallyTimeSpent" value="31941000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -274,7 +274,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.29568106" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.23366556" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -608,13 +608,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/web/eloquent-query.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/laravel/web/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -645,8 +638,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/web/CRUD Controller With single image.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="200" lean-forward="true" selection-start-line="200" selection-end-line="200" />
+        <state relative-caret-position="416">
+          <caret line="199" column="1" lean-forward="true" selection-start-line="199" selection-start-column="1" selection-end-line="199" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/web/eloquent-query.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="306" lean-forward="true" selection-start-line="306" selection-end-line="306" />
         </state>
       </provider>
     </entry>
