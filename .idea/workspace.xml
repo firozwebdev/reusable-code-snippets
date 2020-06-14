@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d5f9e537-2622-414b-bb81-3ebc7e51968e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel/web/Relationship/many-to-many-attach-detach-sync.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/web/Relationship/many-to-many-attach-detach-sync.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel/web/CRUD Controller With single image.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/web/CRUD Controller With single image.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,14 +23,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="many-to-many-attach-detach-sync.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="many-to-many-attach-detach-sync.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laravel/web/Relationship/many-to-many-attach-detach-sync.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
-              <caret line="28" column="45" lean-forward="true" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
-              <folding>
-                <element signature="e#8#91#0#PHP" expanded="true" />
-              </folding>
+              <caret line="89" column="30" lean-forward="true" selection-start-line="89" selection-start-column="30" selection-end-line="89" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -44,20 +41,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="time.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel/web/time.php">
+      <file leaf-file-name="navigation-or-menubar-active.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel/web/navigation-or-menubar-active.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+            <state relative-caret-position="57">
+              <caret line="3" column="10" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="navigation-or-menubar-active.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel/web/navigation-or-menubar-active.php">
+      <file leaf-file-name="CRUD Controller With single image.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/laravel/web/CRUD Controller With single image.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="37" />
+            <state relative-caret-position="402">
+              <caret line="200" lean-forward="true" selection-start-line="200" selection-end-line="200" />
             </state>
           </provider>
         </entry>
@@ -117,7 +114,6 @@
       <list>
         <option value="$PROJECT_DIR$/laravel/web/laravel-mix.php" />
         <option value="$PROJECT_DIR$/laravel/web/laravel-collective-form.php" />
-        <option value="$PROJECT_DIR$/laravel/web/CRUD Controller With single image.php" />
         <option value="$PROJECT_DIR$/laravel/web/time.php" />
         <option value="$PROJECT_DIR$/android/custom-toast/customtoast_activity.xml" />
         <option value="$PROJECT_DIR$/android/custom-toast/activity_main.xml" />
@@ -128,6 +124,7 @@
         <option value="$PROJECT_DIR$/laravel/web/routes.php" />
         <option value="$PROJECT_DIR$/laravel/web/attach-detach-sync.php" />
         <option value="$PROJECT_DIR$/laravel/web/Relationship/many-to-many-attach-detach-sync.php" />
+        <option value="$PROJECT_DIR$/laravel/web/CRUD Controller With single image.php" />
       </list>
     </option>
   </component>
@@ -255,18 +252,20 @@
       <workItem from="1591958285409" duration="11000" />
       <workItem from="1591969183247" duration="2879000" />
       <workItem from="1592030224531" duration="6940000" />
-      <workItem from="1592048559965" duration="27000" />
+      <workItem from="1592048559965" duration="133000" />
+      <workItem from="1592082562686" duration="36000" />
+      <workItem from="1592116045252" duration="1526000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28256000" />
+    <option name="totallyTimeSpent" value="29924000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18070363" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21375267" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -275,7 +274,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.30827886" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.29568106" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -539,13 +538,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/web/CRUD Controller With single image.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/laravel/web/session-message.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -616,13 +608,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/web/navigation-or-menubar-active.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/laravel/web/eloquent-query.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -647,10 +632,21 @@
     <entry file="file://$PROJECT_DIR$/laravel/web/Relationship/many-to-many-attach-detach-sync.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
-          <caret line="28" column="45" lean-forward="true" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
-          <folding>
-            <element signature="e#8#91#0#PHP" expanded="true" />
-          </folding>
+          <caret line="89" column="30" lean-forward="true" selection-start-line="89" selection-start-column="30" selection-end-line="89" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/web/navigation-or-menubar-active.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/web/CRUD Controller With single image.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="200" lean-forward="true" selection-start-line="200" selection-end-line="200" />
         </state>
       </provider>
     </entry>

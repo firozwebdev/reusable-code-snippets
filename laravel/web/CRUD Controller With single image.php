@@ -184,4 +184,17 @@ class PostController extends Controller
         return redirect()->route('posts.index');
           //return redirect()->route('categories.index')->with('message',"Post Deleted"); // this line will work for normal session message
     }
+
+
+    public function adminRegister(Request $request){
+        $request->validate([
+            'email'=>'required|unique:admins',
+            'password'=>'required',
+            'password_confirmation'=>'same:password'
+        ]);
+        unset($request['password_confirmation']);
+        $password = Hash::make($request->password);
+        $request['password'] = $password;
+        Admin::create($request->all());
+    }
 }
