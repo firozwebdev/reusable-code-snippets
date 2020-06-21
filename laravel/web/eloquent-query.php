@@ -304,3 +304,142 @@ public function index(Category $category)
                 return str_random(40);
             }
         }
+
+
+
+public function getAllData()
+{
+    $categories = Category::with(['matches'=> function($q){
+        $q->where('matches.status','ACTIVE')->orWhere('matches.status','LIVE')->orderBy('matches.match_datetime', 'ASC'); //Check Live Match
+    },'matches.tournaments','matches.bets' => function($q){
+        $q->whereNull('bet_result')->whereIn('bet_status',[1,3])->orderBy('id', 'ASC');
+    },'matches.bets.betEvents' => function($q){
+        $q->whereNull('bet_result')->orderBy('id', 'ASC');
+    },])->active()->get();  //Get All Data With Active Category
+
+
+    return response()->json($categories,200);
+
+}
+
+public function match_details($id)
+{
+    // $match = Match::with('live_score')->findOrFail($id);
+    try {
+        $data_url = route('get-match-data',$id);
+
+        $match = Match::with(['live_score','tournaments','bets' => function($q){
+            $q->whereNull('bet_result')->whereIn('bet_status',[1,3])->orderBy('id', 'ASC');
+        },'bets.betEvents' => function($q){
+            $q->whereNull('bet_result')->orderBy('id', 'ASC');
+        },])->whereIn('status',['LIVE','ACTIVE','ADVANCE'])->findOrFail($id);
+
+        return view('frontend.home.match-details', compact('match','data_url'));
+    } catch (\Exception $e) {
+        return abort(404);
+    }
+}
+
+// Retrieve all posts that have at least one comment...
+$posts = App\Post::has('comments')->get();
+
+// Retrieve all posts that have three or more comments...
+$posts = App\Post::has('comments', '>=', 3)->get();
+
+// Retrieve posts that have at least one comment with votes...
+$posts = App\Post::has('comments.votes')->get();
+
+// Retrieve posts with at least one comment containing words like foo%...
+$posts = App\Post::whereHas('comments', function (Builder $query) {
+    $query->where('content', 'like', 'foo%');
+})->get();
+
+// Retrieve posts with at least ten comments containing words like foo%...
+$posts = App\Post::whereHas('comments', function (Builder $query) {
+    $query->where('content', 'like', 'foo%');
+}, '>=', 10)->get();
+
+// Retrieve posts  that don't have any comments.
+$posts = App\Post::doesntHave('comments')->get();
+
+// retrieve all posts with comments from authors that are not banned:
+use Illuminate\Database\Eloquent\Builder;
+
+$posts = App\Post::whereDoesntHave('comments.author', function (Builder $query) {
+    $query->where('banned', 0);
+})->get();
+
+
+// Querying Polymorphic Relationships
+
+
+// Retrieve comments associated to posts or videos with a title like foo%...
+$comments = App\Comment::whereHasMorph(
+    'commentable',
+    ['App\Post', 'App\Video'],
+    function (Builder $query) {
+        $query->where('title', 'like', 'foo%');
+    }
+)->get();
+
+
+// Retrieve comments associated to posts with a title not like foo%...
+$comments = App\Comment::whereDoesntHaveMorph(
+    'commentable',
+    'App\Post',
+    function (Builder $query) {
+        $query->where('title', 'like', 'foo%');
+    }
+)->get();
+
+// You may use the $type parameter to add different constraints depending on the related model:
+use Illuminate\Database\Eloquent\Builder;
+
+$comments = App\Comment::whereHasMorph(
+    'commentable',
+    ['App\Post', 'App\Video'],
+    function (Builder $query, $type) {
+        $query->where('title', 'like', 'foo%');
+
+        if ($type === 'App\Post') {
+            $query->orWhere('content', 'like', 'foo%');
+        }
+    }
+)->get();
+
+/*
+Instead of passing an array of possible polymorphic models, you may
+provide * as a wildcard and let Laravel retrieve all the possible
+polymorphic types from the database. Laravel will execute an
+additional query in order to perform this operation:
+*/
+
+use Illuminate\Database\Eloquent\Builder;
+
+$comments = App\Comment::whereHasMorph('commentable', '*', function (Builder $query) {
+    $query->where('title', 'like', 'foo%');
+})->get();
+
+/*
+If you want to count the number of results from a relationship
+without actually loading them you may use the withCount method, which will place
+a {relation}_count column on your resulting models. For example:
+*/
+$posts = App\Post::withCount('comments')->get();
+
+foreach ($posts as $post) {
+    echo $post->comments_count;
+}
+
+/*Sometimes you may wish to eager load a relationship,
+but also specify additional query conditions for the
+eager loading query. Here's an example:
+*/
+
+$users = App\User::with(['posts' => function ($query) {
+    $query->where('title', 'like', '%first%');
+}])->get();
+
+$users = App\User::with(['posts' => function ($query) {
+    $query->orderBy('created_at', 'desc');
+}])->get();
