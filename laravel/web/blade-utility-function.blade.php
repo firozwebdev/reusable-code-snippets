@@ -5,6 +5,14 @@
 @endphp
 
 
+// how to check array empty or not in laravel blade
+
+@if( !$results->isEmpty())
+    //here collection is not empty
+@else
+    //here collection is  empty
+@endif
+
 
 /*
     comma will not be seen for last item in side a loop

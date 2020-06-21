@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d5f9e537-2622-414b-bb81-3ebc7e51968e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel/web/eloquent-query.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/web/eloquent-query.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel/web/blade-utility-function.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/web/blade-utility-function.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,17 +26,17 @@
       <file leaf-file-name="many-to-many-attach-detach-sync.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laravel/web/Relationship/many-to-many-attach-detach-sync.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="89" column="30" lean-forward="true" selection-start-line="89" selection-start-column="30" selection-end-line="89" selection-end-column="30" />
+            <state relative-caret-position="1305">
+              <caret line="89" column="30" selection-start-line="89" selection-start-column="30" selection-end-line="89" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blade-utility-function.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="blade-utility-function.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/laravel/web/blade-utility-function.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1365">
-              <caret line="91" selection-start-line="91" selection-end-line="91" selection-end-column="54" />
+            <state relative-caret-position="273">
+              <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -44,7 +44,7 @@
       <file leaf-file-name="navigation-or-menubar-active.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laravel/web/navigation-or-menubar-active.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
+            <state relative-caret-position="45">
               <caret line="3" column="10" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="36" />
             </state>
           </provider>
@@ -53,17 +53,17 @@
       <file leaf-file-name="CRUD Controller With single image.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laravel/web/CRUD Controller With single image.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="199" column="1" lean-forward="true" selection-start-line="199" selection-start-column="1" selection-end-line="199" selection-end-column="1" />
+            <state relative-caret-position="2925">
+              <caret line="199" column="1" selection-start-line="199" selection-start-column="1" selection-end-line="199" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="eloquent-query.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="eloquent-query.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laravel/web/eloquent-query.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="306" lean-forward="true" selection-start-line="306" selection-end-line="306" />
+            <state relative-caret-position="414">
+              <caret line="296" column="13" selection-start-line="296" selection-start-column="13" selection-end-line="296" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -119,12 +119,12 @@
         <option value="$PROJECT_DIR$/android/custom-toast/activity_main.xml" />
         <option value="$PROJECT_DIR$/android/custom-toast/MainActivity.java" />
         <option value="$PROJECT_DIR$/laravel/web/navigation-or-menubar-active.php" />
-        <option value="$PROJECT_DIR$/laravel/web/blade-utility-function.blade.php" />
         <option value="$PROJECT_DIR$/laravel/web/routes.php" />
         <option value="$PROJECT_DIR$/laravel/web/attach-detach-sync.php" />
         <option value="$PROJECT_DIR$/laravel/web/Relationship/many-to-many-attach-detach-sync.php" />
         <option value="$PROJECT_DIR$/laravel/web/CRUD Controller With single image.php" />
         <option value="$PROJECT_DIR$/laravel/web/eloquent-query.php" />
+        <option value="$PROJECT_DIR$/laravel/web/blade-utility-function.blade.php" />
       </list>
     </option>
   </component>
@@ -203,7 +203,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fw" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../rubelcom" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -254,18 +254,27 @@
       <workItem from="1592030224531" duration="6940000" />
       <workItem from="1592048559965" duration="133000" />
       <workItem from="1592082562686" duration="36000" />
-      <workItem from="1592116045252" duration="3543000" />
+      <workItem from="1592116045252" duration="4168000" />
+      <workItem from="1592306983024" duration="616000" />
+      <workItem from="1592375332299" duration="1211000" />
+      <workItem from="1592383012046" duration="1201000" />
+      <workItem from="1592467969104" duration="1226000" />
+      <workItem from="1592573111034" duration="596000" />
+      <workItem from="1592581136665" duration="4000" />
+      <workItem from="1592634749214" duration="620000" />
+      <workItem from="1592679907660" duration="608000" />
+      <workItem from="1592682559250" duration="1288000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31941000" />
+    <option name="totallyTimeSpent" value="39936000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21375267" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21215352" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -274,7 +283,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.23366556" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2026578" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -601,13 +610,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/web/blade-utility-function.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1365">
-          <caret line="91" selection-start-line="91" selection-end-line="91" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/laravel/web/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -624,29 +626,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/web/Relationship/many-to-many-attach-detach-sync.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="89" column="30" lean-forward="true" selection-start-line="89" selection-start-column="30" selection-end-line="89" selection-end-column="30" />
+        <state relative-caret-position="1305">
+          <caret line="89" column="30" selection-start-line="89" selection-start-column="30" selection-end-line="89" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/web/navigation-or-menubar-active.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
+        <state relative-caret-position="45">
           <caret line="3" column="10" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/web/CRUD Controller With single image.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="199" column="1" lean-forward="true" selection-start-line="199" selection-start-column="1" selection-end-line="199" selection-end-column="1" />
+        <state relative-caret-position="2925">
+          <caret line="199" column="1" selection-start-line="199" selection-start-column="1" selection-end-line="199" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/web/eloquent-query.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="306" lean-forward="true" selection-start-line="306" selection-end-line="306" />
+        <state relative-caret-position="414">
+          <caret line="296" column="13" selection-start-line="296" selection-start-column="13" selection-end-line="296" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/web/blade-utility-function.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
         </state>
       </provider>
     </entry>
