@@ -5,8 +5,19 @@
 @endphp
 
 
-// how to check array empty or not in laravel blade,
-// here $results is a collection, normally laravel eloquent return collection just like array
+/*
+    When we want to check an array is empty or not use normal empty($array)
+
+*/
+
+@if(!empty($array))
+    //here array is not empty
+@else
+    //here array is  empty
+@endif
+
+//But in laravel, we found collection instead array though they are identically same, how to check array empty or not in laravel blade,
+// here $results is a collection, normally laravel eloquent return collection, we have to use below function for collection instead above function
 
 @if( !$results->isEmpty())
     //here collection is not empty
