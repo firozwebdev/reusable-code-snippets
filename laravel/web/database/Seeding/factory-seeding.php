@@ -60,7 +60,7 @@ $factory->define(\App\Models\Product::class, function (Faker $faker) {
         'type' => $faker->randomElement(['Regular','Featured','Special']),
         'slug' => Str::slug($faker->firstName),
         'product_price' => $faker->numberBetween(100,1000),
-        'special_price' => $faker->numberBetween(100,1000)-50,
+        'special_price' => $faker->numberBetween(100,1000),
         'start_date' => \Carbon\Carbon::now(),
         'end_date' => \Carbon\Carbon::now(),
         'product_quantity' => $faker->numberBetween(5,50),

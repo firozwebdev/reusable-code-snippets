@@ -26,6 +26,13 @@
 @endif
 
 
+
+@forelse($status->replies as $reply)
+    <p>{{ $reply->body }}</p>
+@empty
+    <p>No replies</p>
+@endforelse
+
 /*
     comma will not be seen for last item in side a loop
 
