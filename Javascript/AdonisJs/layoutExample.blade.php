@@ -2,6 +2,8 @@
 {{ style('css/style.css') }}
 
 
+
+
 //parent-layout
 
 @include('partials.navbar')
@@ -19,4 +21,8 @@
 @endsection
 
 
+//link inside html with name route
+
+<li><a href="{{ route('register') }}">Register</a></li>
+<li><a href="{{ route('login') }}">Login</a></li>
 

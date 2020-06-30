@@ -9,3 +9,5 @@
     })
 
     Route.get('/test', 'TestController.index')
+
+    Route.get('/login', 'AuthController.login').as('login') // name route

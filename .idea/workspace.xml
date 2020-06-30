@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5f9e537-2622-414b-bb81-3ebc7e51968e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javascript/AdonisJs/controllerExample.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Javascript/AdonisJs/controllerExample.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javascript/AdonisJs/layoutExample.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Javascript/AdonisJs/layoutExample.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -57,8 +58,8 @@
       <file leaf-file-name="controllerExample.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Javascript/AdonisJs/controllerExample.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+            <state relative-caret-position="396">
+              <caret line="12" column="73" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -66,8 +67,8 @@
       <file leaf-file-name="layoutExample.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Javascript/AdonisJs/layoutExample.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="402">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -145,7 +146,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-139" />
     <option name="y" value="149" />
     <option name="width" value="1940" />
@@ -308,12 +309,12 @@
       <workItem from="1593336233782" duration="1282000" />
       <workItem from="1593371793960" duration="6120000" />
       <workItem from="1593440644815" duration="1216000" />
-      <workItem from="1593490450118" duration="2626000" />
+      <workItem from="1593490450118" duration="3011000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65072000" />
+    <option name="totallyTimeSpent" value="65457000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -688,15 +689,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Javascript/AdonisJs/controllerExample.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        <state relative-caret-position="396">
+          <caret line="12" column="73" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Javascript/AdonisJs/layoutExample.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="402">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
